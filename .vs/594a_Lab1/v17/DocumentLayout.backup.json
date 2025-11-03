@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UnityProjects\\594a_Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|d:\\unityprojects\\594a_lab1\\assets\\scripts\\objecttransform\\collideheal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objecttransform\\collideheal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|D:\\UnityProjects\\594a_Lab1\\assets\\scripts\\objecttransform\\collidehazard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objecttransform\\collidehazard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|d:\\unityprojects\\594a_lab1\\assets\\scripts\\hud\\hudtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hud\\hudtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|d:\\unityprojects\\594a_lab1\\assets\\scripts\\spawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|D:\\UnityProjects\\594a_Lab1\\assets\\scripts\\health\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|D:\\UnityProjects\\594a_Lab1\\assets\\scripts\\health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|D:\\UnityProjects\\594a_Lab1\\assets\\scripts\\playermovementrevised.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovementrevised.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|D:\\UnityProjects\\594a_Lab1\\assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF42B5E-5879-AFFE-6C58-6A47BFB53818}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "collideHeal.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\objectTransform\\collideHeal.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\objectTransform\\collideHeal.cs",
+              "ToolTip": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\objectTransform\\collideHeal.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\objectTransform\\collideHeal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:08:57.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "collideHazard.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\objectTransform\\collideHazard.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\objectTransform\\collideHazard.cs",
+              "ToolTip": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\objectTransform\\collideHazard.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\objectTransform\\collideHazard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:18:17.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "playerManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\playerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\playerManager.cs",
+              "ToolTip": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\playerManager.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\playerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:41:01.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HUDtext.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\HUD\\HUDtext.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\HUD\\HUDtext.cs",
+              "ToolTip": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\HUD\\HUDtext.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\HUD\\HUDtext.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowEQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:52:21.579Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\Health\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Health\\HealthBar.cs",
+              "ToolTip": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\Health\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\Health\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T10:17:22.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "playerMovementRevised.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\playerMovementRevised.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\playerMovementRevised.cs",
+              "ToolTip": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\playerMovementRevised.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\playerMovementRevised.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:43:20.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpawnerScript.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\SpawnerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\SpawnerScript.cs",
+              "ToolTip": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\SpawnerScript.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\SpawnerScript.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:37:08.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "healthSystem.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\Health\\healthSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Health\\healthSystem.cs",
+              "ToolTip": "D:\\UnityProjects\\594a_Lab1\\Assets\\SCRIPTS\\Health\\healthSystem.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\Health\\healthSystem.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T10:18:42.727Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ritik\\SER594_Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\playerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\playerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\Health\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\Health\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\Health\\healthSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\Health\\healthSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\objectTransform\\collideHeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\objectTransform\\collideHeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\objectTransform\\collideHazard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\objectTransform\\collideHazard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\HUD\\HUDtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\HUD\\HUDtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\playerMovementRevised.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\playerMovementRevised.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "playerManager.cs",
+              "DocumentMoniker": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\playerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\playerManager.cs",
+              "ToolTip": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\playerManager.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\playerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:59:19.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "collideHeal.cs",
+              "DocumentMoniker": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\objectTransform\\collideHeal.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\objectTransform\\collideHeal.cs",
+              "ToolTip": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\objectTransform\\collideHeal.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\objectTransform\\collideHeal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:58:44.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "collideHazard.cs",
+              "DocumentMoniker": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\objectTransform\\collideHazard.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\objectTransform\\collideHazard.cs",
+              "ToolTip": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\objectTransform\\collideHazard.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\objectTransform\\collideHazard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:58:00.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\Health\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Health\\HealthBar.cs",
+              "ToolTip": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\Health\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\Health\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:57:09.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "healthSystem.cs",
+              "DocumentMoniker": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\Health\\healthSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Health\\healthSystem.cs",
+              "ToolTip": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\Health\\healthSystem.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\Health\\healthSystem.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvzMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:57:07.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HUDtext.cs",
+              "DocumentMoniker": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\HUD\\HUDtext.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\HUD\\HUDtext.cs",
+              "ToolTip": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\HUD\\HUDtext.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\HUD\\HUDtext.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADwv1oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:53:39.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "playerMovementRevised.cs",
+              "DocumentMoniker": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\playerMovementRevised.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\playerMovementRevised.cs",
+              "ToolTip": "C:\\Users\\ritik\\SER594_Lab2\\Assets\\SCRIPTS\\playerMovementRevised.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\playerMovementRevised.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:52:55.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
