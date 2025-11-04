@@ -21,7 +21,11 @@ public class cameraFollow : MonoBehaviour
         //cam.transform.RotateAround(player.transform.position, Vector3.up, -z);
         //cam.transform.LookAt(player.transform);
 
-        float mouse = Input.GetAxis("Mouse X");
-        transform.Rotate(new Vector3(0,mouse * 2f, 0));
+        float mouseX = Input.GetAxis("Mouse X");
+        float mouseY = Input.GetAxis("Mouse Y");
+        transform.Rotate(new Vector3(0,mouseX * 2f, 0));
+        transform.Rotate(new Vector3(0, mouseY * 2f, 0));
+
+
     }
 }

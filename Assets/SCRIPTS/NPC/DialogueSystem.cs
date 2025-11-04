@@ -1,5 +1,8 @@
 using UnityEngine;
 using TMPro;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -8,42 +11,49 @@ public class DialogueSystem : MonoBehaviour
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
 
-    private Queue<string> sentences;
+    private Queue<string> dialogueQueue;
+    private Action onDialogueFinished;
 
-    void Awake()
+    public bool isDialogueActive = false;
+    public float lineDelay = 1.2f; // time between sentences
+
+    private void Awake()
     {
         Instance = this;
-        sentences = new Queue<string>();
+        dialogueQueue = new Queue<string>();
         dialoguePanel.SetActive(false);
     }
 
-    public void StartDialogue(string[] lines)
+    public void StartDialogue(List<string> lines, Action onFinish = null)
     {
-        playerMovementRevised.dialouge = true; // Freeze player
-        sentences.Clear();
+        dialogueQueue.Clear();
+        foreach (var line in lines) dialogueQueue.Enqueue(line);
 
-        foreach (string line in lines)
-            sentences.Enqueue(line);
-
+        onDialogueFinished = onFinish;
         dialoguePanel.SetActive(true);
-        DisplayNextSentence();
+        isDialogueActive = true;
+        playerMovementRevised.dialouge = true;
+
+        StopAllCoroutines();
+        StartCoroutine(PlayDialogue());
     }
 
-    public void DisplayNextSentence()
+    IEnumerator PlayDialogue()
     {
-        if (sentences.Count == 0)
+        while (dialogueQueue.Count > 0)
         {
-            EndDialogue();
-            return;
+            dialogueText.text = dialogueQueue.Dequeue();
+            yield return new WaitForSeconds(lineDelay);
         }
 
-        string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
+        EndDialogue();
     }
 
-    public void EndDialogue()
+    void EndDialogue()
     {
         dialoguePanel.SetActive(false);
-        playerMovementRevised.dialouge = false; // Unfreeze player
+        isDialogueActive = false;
+        playerMovementRevised.dialouge = false;
+        onDialogueFinished?.Invoke();
     }
 }

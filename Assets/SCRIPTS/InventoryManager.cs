@@ -73,6 +73,7 @@ public class InventoryManager : MonoBehaviour
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
+
              var itemName =  obj.transform.Find("ItemName").GetComponent<TextMeshProUGUI>();
              var itemIcon =  obj.transform.Find("ItemIcon").GetComponent<Image>() ;
 
@@ -80,10 +81,35 @@ public class InventoryManager : MonoBehaviour
             itemIcon.sprite = item.icon;
 
             var button = obj.transform.Find("RemoveButton").GetComponent<Button>();
-            if (EnableRemove.isOn)
+            button.onClick.RemoveAllListeners();
+            button.onClick.RemoveAllListeners();
+
+      
+            Item itemToRemove = item;
+            button.onClick.AddListener(() =>
             {
-                button.gameObject.SetActive(true);
-            }
+                InventoryManager.Instance.Remove(itemToRemove);
+                InventoryManager.Instance.ListItems();
+            });
+
+            button.gameObject.SetActive(EnableRemove.isOn);
+
+
+
+
+            //var itemButton = obj.GetComponent<Button>();
+            //itemButton.onClick.RemoveAllListeners();
+            //itemButton.onClick.AddListener(() => controller.UseItem());
+
+            var controller = obj.GetComponent<InventoryItemController>();
+            controller.AddItem(item);
+
+            // Call UseItem() when clicking item slot
+            var slotBtn = obj.GetComponent<Button>();
+            slotBtn.onClick.RemoveAllListeners();
+            slotBtn.onClick.AddListener(() => controller.UseItem());
+
+
             //button.SetActive(EnableRemove.isOn);
 
             //obj.GetComponent<InventoryItemController>().AddItem(item);
