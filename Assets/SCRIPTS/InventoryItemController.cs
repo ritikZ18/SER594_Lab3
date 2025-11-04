@@ -15,7 +15,7 @@ public class InventoryItemController : MonoBehaviour
     {
         InventoryManager.Instance.Remove(item);
         InventoryManager.Instance.ListItems();
-        //Destroy(gameObject);
+        Destroy(gameObject);
     }
 
     //public void setupItem(Item newItem)
@@ -30,31 +30,31 @@ public class InventoryItemController : MonoBehaviour
 
 
 
-    public void UseItem()
-    {
-        if (item.itemCategory == "Consumable")
-        {
-            if (item.itemName == "Health Potion")
-            {
-                // restore health
-                FindObjectOfType<healthSystem>().heal(1);
+    //public void UseItem()
+    //{
+    //    if (item.itemCategory == "Consumable")
+    //    {
+    //        if (item.itemName == "Health Potion")
+    //        {
+    //            // restore health
+    //            FindObjectOfType<healthSystem>().heal(1);
                 
-                Debug.Log("✅ Health Restored!");
-            }
-            else if (item.itemName == "Harmful Potion")
-            {
-                FindObjectOfType<healthSystem>().takeDamage(1);
+    //            Debug.Log("✅ Health Restored!");
+    //        }
+    //        else if (item.itemName == "Harmful Potion")
+    //        {
+    //            FindObjectOfType<healthSystem>().takeDamage(1);
 
-                Debug.Log("⚠️ Ouch! Hazard consumed.");
-            }
+    //            Debug.Log("⚠️ Ouch! Hazard consumed.");
+    //        }
 
-            InventoryManager.Instance.Remove(item);
-            InventoryManager.Instance.ListItems();
-            return;
-        }
+    //        InventoryManager.Instance.Remove(item);
+    //        InventoryManager.Instance.ListItems();
+    //        return;
+    //    }
 
-        // Book items do nothing here
-        Debug.Log("📘 Special books cannot be used from bag");
-    }
+    //    // Book items do nothing here
+    //    Debug.Log("📘 Special books cannot be used from bag");
+    //}
 
 }

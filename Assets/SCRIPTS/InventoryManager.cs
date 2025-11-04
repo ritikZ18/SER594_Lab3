@@ -101,13 +101,13 @@ public class InventoryManager : MonoBehaviour
             //itemButton.onClick.RemoveAllListeners();
             //itemButton.onClick.AddListener(() => controller.UseItem());
 
-            var controller = obj.GetComponent<InventoryItemController>();
-            controller.AddItem(item);
+            //var controller = obj.GetComponent<InventoryItemController>();
+            //controller.AddItem(item);
 
-            // Call UseItem() when clicking item slot
-            var slotBtn = obj.GetComponent<Button>();
-            slotBtn.onClick.RemoveAllListeners();
-            slotBtn.onClick.AddListener(() => controller.UseItem());
+            //// Call UseItem() when clicking item slot
+            //var slotBtn = obj.GetComponent<Button>();
+            //slotBtn.onClick.RemoveAllListeners();
+            //slotBtn.onClick.AddListener(() => controller.UseItem());
 
 
             //button.SetActive(EnableRemove.isOn);
